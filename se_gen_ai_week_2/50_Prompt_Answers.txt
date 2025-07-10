@@ -1,0 +1,268 @@
+### 🔹 Basic Prompt Templates
+
+1. **General Inquiry**
+   *Explain transformer-based models in simple terms.*
+
+2. **Summarization**
+   *Summarize the following Gen AI whitepaper in 5 bullet points.*
+   
+   Foundation Models and the Future of AI
+   --------------------------------------
+   In recent years, the field of Artificial Intelligence has seen a significant paradigm shift with the emergence of foundation models — large-scale models trained on massive datasets that can be adapted for a wide variety of downstream tasks. Examples of such models include OpenAI’s GPT series, Google’s Gemini, Meta’s LLaMA, and Anthropic’s Claude. These models exhibit impressive generalization capabilities across domains like natural language processing, computer vision, and even multi-modal tasks.
+   
+   Foundation models differ from traditional AI models in their scale, architecture, and training methodology. While previous systems were often narrowly trained for specific tasks (like spam detection or sentiment analysis), foundation models are pre-trained on diverse internet-scale data using self-supervised learning techniques. This enables them to learn representations that are broadly applicable and adaptable.
+
+   One of the most transformative aspects of foundation models is their ability to support “few-shot” or even “zero-shot” learning — performing tasks with little to no domain-specific training. This opens up massive efficiency gains for businesses and developers by reducing the time and cost of data labeling and retraining.
+
+   Despite their promise, foundation models raise significant ethical and technical concerns. These include the risks of model hallucination, bias, lack of explainability, and overreliance by users. Furthermore, the environmental impact of training such massive models and the concentration of model ownership among a few tech giants add to the debate.
+
+   Going forward, the field is likely to see a shift toward more efficient, aligned, and specialized models — including models fine-tuned for specific industries like healthcare, finance, and law. Techniques like retrieval-augmented generation (RAG), reinforcement learning with human feedback (RLHF), and federated learning will play a key role in making these models safer, more accurate, and more privacy-preserving.
+
+   In essence, foundation models represent both a technological leap and a governance challenge. They offer unprecedented capabilities but also require thoughtful deployment, regulation, and community involvement to ensure they benefit society broadly and fairly.
+
+3. **Paraphrasing**
+   *Rewrite this sentence in your own words:*
+   "Large language models understand context through attention mechanisms."
+
+4. **Definition Request**
+   *What is the meaning of retrieval-augmented generation (RAG)?*
+
+5. **Comparison**
+   *Compare GPT-4 and Claude 3 based on reasoning ability.*
+
+---
+
+### 🔹 Persona Based Prompt Templates
+
+6. **Role + Explanation**
+   *You are an AI educator. Explain how generative AI works to high school students.*
+
+7. **Style Mimicry**
+   *Write like Elon Musk: The future of AI in human augmentation.*
+
+8. **Professional Writing**
+   *You are a Gen AI Architect. Write a technical brief about using LLMs for legal document automation.*
+
+---
+
+### 🔹 Few-Shot Prompt Templates
+
+9. **Classification Template**
+
+   * "Text: 'Buy now and save 50%!' -> Ad"
+   * "Text: 'Explain how LLMs generate text.' -> Educational"
+
+10. **Translation Template**
+    *Translate the following sentence into French:*
+    "Generative AI models can produce human-like content."
+
+11. **Question Answering Template**
+    *Answer these questions:*
+
+* What is the use of fine-tuning?
+* Name three types of transformer models.
+* How does tokenization work?
+
+---
+
+### 🔹 Chain of Thought Templates
+
+12. **Step-by-Step Reasoning**
+    *Let’s think step by step. Why are transformer models better than RNNs for long sequences?*
+
+13. **Math Problem Solving**
+    *Solve this math problem by showing your work:*
+    "If token A costs \$0.002 per 1K tokens and we use 50K tokens per query, what’s the cost per query?"
+
+14. **Logical Puzzle**
+    *Solve the following logic puzzle. Show your reasoning process:*
+    "You have an LLM that makes accurate predictions 70% of the time. How many predictions do you need for 95% certainty?"
+
+---
+
+### 🔹 Instruction Tuning / Format Control
+
+15. **Output Formatting**
+    *Summarize this research paper in exactly 4 bullet points.*
+
+16. **Table Generation**
+    *Create a table comparing GPT-3.5, GPT-4, and Claude 3 based on accuracy, latency, and cost.*
+
+17. **Email Writing**
+    *Write a professional email to a potential client explaining the benefits of using Gen AI for customer service automation.*
+
+---
+
+### 🔹 Contextual Prompts
+
+18. **Tailored Explanation**
+    *Explain LLMs to a 12-year-old who knows what Google is.*
+
+19. **Industry Specific Contextual**
+    *As a healthcare industry expert, explain how Gen AI improves patient engagement and triage.*
+
+---
+
+### 🔹 Creative Writing Prompts
+
+20. **Story Writing**
+    *Write a short story about an AI assistant who dreams of becoming a philosopher.*
+
+21. **Poem Writing**
+    *Write a haiku about ethical dilemmas in generative AI.*
+
+22. **Dialogue Writing**
+    *Write a realistic dialogue between an AI researcher and a startup CEO discussing Gen AI scalability issues.*
+
+---
+
+### 🔹 Code & Technical Prompts
+
+23. **Code Generation**
+    *Write a Python function that uses OpenAI API to summarize a PDF.*
+
+24. **Debugging Help**
+    *Here is some code. Find and fix any errors:*
+
+```python
+import openai
+response = openai.ChatCompletion.create(
+    model="gpt4",
+    messages=[{"role": "user", "content": "Hello"}]
+print(response)
+```
+
+25. **API Documentation**
+    *Explain how to use the OpenAI ChatCompletion API with an example request and response.*
+
+---
+
+### 🔹 Marketing & Business Prompts
+
+26. **Ad Copywriting**
+    *Write a compelling ad for a Gen AI-powered legal assistant targeting law firms.*
+
+27. **Product Description**
+    *Write a persuasive product description for your AI-powered SaaS that helps marketers generate blog content.*
+
+28. **Social Media Post**
+    *Create a social media post promoting your new Gen AI tool for real estate agents.*
+
+---
+
+### 🔹 Customer Support & Service Prompts
+
+29. **Response to Complaint**
+    *Respond professionally to this customer complaint:*
+    "Your AI bot gave wrong answers during our customer chat."
+
+30. **FAQ Generator**
+    *Generate 5 common FAQs and answers for your Gen AI-powered résumé writer.*
+
+---
+
+### 🔹 Education & Tutoring Prompts
+
+31. **Lesson Plan Creation**
+    *Create a lesson plan for teaching prompt engineering to undergraduate CS students.*
+
+32. **Quiz Generation**
+    *Generate a 5-question quiz about generative adversarial networks (GANs).*
+
+33. **Homework Help**
+    *Explain how to solve this problem:*
+    "What’s the difference between supervised fine-tuning and reinforcement learning with human feedback (RLHF)?"
+
+---
+
+### 🔹 Advanced Framework-Based Templates
+
+34. **ReAct Framework**
+
+```
+Thought: I need to find the latest LLM benchmark scores.
+Action: Search("GPT-4 vs Claude 3 vs Gemini benchmark July 2025")
+Observation: GPT-4 ranks highest in reasoning, Claude 3 in summarization.
+Answer: GPT-4 is best for logic-heavy tasks, Claude 3 for summarization.
+```
+
+35. **Tree of Thoughts**
+    *Generate 3 possible solutions for reducing hallucinations in Gen AI models. Evaluate each and choose the best one.*
+
+36. **Self Consistency Prompts**
+    *Solve the following question in 3 different ways and pick the most consistent answer:*
+    "What is prompt injection and how can it be mitigated?"
+
+---
+
+### 🔹 Prompt Optimization & Evaluation
+
+37. **Prompt Refinement**
+    *Improve the prompt:*
+    `"Explain AI"`
+    *Make it clearer, more specific, and structured.*
+
+38. **Prompt Grading Rubric**
+    *Rate this AI-generated response based on the following criteria: Relevance, Accuracy, Clarity, Fluency, Creativity. Final Score: \_\_\_*
+
+39. **Prompt Iteration Challenge**
+    *Take this weak prompt: "Write something about AI."
+    Now rewrite it 3 times to improve clarity and effectiveness.*
+
+---
+
+### 🔹 Real World Application Prompts
+
+40. **Job Posting Creation**
+    *Write a job posting for a Gen AI Prompt Engineer at a SaaS startup. Include responsibilities, requirements, and benefits.*
+
+41. **Resume Summary Builder**
+    \*Create a professional summary based on:
+
+* 5 years of NLP research
+* Built 3 AI products
+* Expert in transformer models\*
+
+42. **Business Proposal**
+    *Write a proposal for a Gen AI chatbot integration for a fintech client. Include objectives, methodology, and benefits.*
+
+---
+
+### 🔹 Miscellaneous Useful Templates
+
+43. **Opinion Writing**
+    *Write an opinion piece on whether Gen AI should be regulated by governments.*
+
+44. **Debate Preparation**
+    *Prepare arguments for both sides of the debate: "Will AI replace most white-collar jobs?"*
+
+45. **Travel Planning**
+    *Plan a 5-day trip to San Francisco for an AI conference attendee. Include activities, budget, and networking tips.*
+
+46. **Book / Movie Review**
+    *Write a review of "The Age of AI" by Henry Kissinger. Include summary, strengths, weaknesses, and recommendation.*
+
+47. **Personal Development**
+    *Give me actionable advice on how to become a top prompt engineer in Gen AI, including daily habits and mindset shifts.*
+
+---
+
+### 🔹 Prompt Chaining Examples
+
+48. **Multi-step Research Task**
+    **Step 1:** Find the top 5 causes of AI model bias.
+    **Step 2:** Based on these causes, suggest 5 ways AI startups can mitigate bias.
+
+49. **Idea to Execution**
+    **Step 1:** Generate 5 business ideas for Gen AI in the dental industry.
+    **Step 2:** Pick one idea and create a marketing strategy for it.
+
+---
+
+### 🔹 Prompt Template Generator
+
+50. **Universal Prompt Builder**
+    *\[You are a Gen AI researcher] + \[Generate use-cases for LLMs in law] + \[Considering privacy concerns] + \[E.g. Legal summarization] + \[Output in bullet list]*
+
+---
+
